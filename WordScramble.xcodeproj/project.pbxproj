@@ -56,6 +56,7 @@
 				204BC1CC296F8FAA00B01737 /* WordScrambleApp.swift */,
 				204BC1CE296F8FAA00B01737 /* ContentView.swift */,
 				204BC1D0296F8FB600B01737 /* Assets.xcassets */,
+				2020C8B1297070020086D633 /* start.txt */,
 				204BC1D2296F8FB600B01737 /* Preview Content */,
 			);
 			path = WordScramble;
@@ -65,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				204BC1D3296F8FB600B01737 /* Preview Assets.xcassets */,
-				2020C8B1297070020086D633 /* start.txt */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";

@@ -125,11 +125,13 @@ struct ContentView: View {
             VStack {
                 List {
                     TextField("Write your word", text: $newWord).textInputAutocapitalization(.never)
-                    ForEach(usedWords, id: \.self) { word in
+                    List(usedWords, id: \.self) { word in
                         HStack {
                             Image(systemName: "\(word.count).circle")
                             Text(word)
                         }
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel("\(word), \(word.count) letters")
                     }
                 }
                 Section {
